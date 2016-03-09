@@ -1,0 +1,224 @@
+html
+{
+    font-family: Consolas, sans-serif;
+}
+#header
+{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    min-width: 980px;
+    padding: 45px 60px 0 60px;
+}
+#logo
+{
+    font-size: 50px;
+
+    position: absolute;
+    top: 270px;
+    left: 20px;
+
+    display: block;
+
+    width: 200px;
+    height: 100px;
+
+    text-decoration: none;
+
+    color: white;
+    background-image: url(../source/images/stf-logo.png);
+    background-repeat: no-repeat;
+    background-size: 180px 140px;
+}
+#nav
+{
+    display: inline-block;
+    float: right;
+
+    margin-top: 10px;
+
+    text-transform: uppercase;
+}
+#nav li
+{
+    display: inline-block;
+
+    margin: 0 10px;
+}
+#nav a
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    -webkit-transition: border .4s;
+            transition: border .4s;
+    text-decoration: none;
+
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+#nav a:hover
+{
+    border-bottom-color: white;
+}
+
+
+#content
+{
+    min-width: 1100px;
+    min-height: 600px;
+    margin: -8px;
+}
+#content .contact
+{
+    position: absolute;
+    top: 480px;
+    left: 100px;
+
+    width: 300px;
+    height: 100px;
+}
+
+#content #follow
+{
+    left: 700px;
+}
+
+/*github icon*/
+#follow a
+{
+    display: block;
+
+    width: 50px;
+    height: 50px;
+
+    background-image: url(../source/images/github-icon.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+.blue-title
+{
+    font-size: 50px;
+
+    color: #5498ef;
+}
+#content .info
+{
+    font-size: 20px;
+
+    padding-left: 5px;
+
+    color: #666e75;
+}
+.banner
+{
+    position: relative;
+
+    width: 100%;
+    height: 400px;
+    margin: 0;
+
+    background-image: url(../source/images/banner-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.team-name
+{
+    font-family: sans-serif;
+    font-size: 39px;
+
+    text-align: center;
+    text-transform: none;
+    text-transform: uppercase;
+
+    color: #5498ef;
+}
+
+.wrapper
+{
+    text-align: center;
+}
+.wrapper .member
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 400px;
+    height: 320px;
+    margin: 10px;
+
+    text-align: left;
+    text-decoration: none;
+}
+.wrapper .member:hover .name
+{
+    color: #5498ef;
+}
+.wrapper .member:hover .description
+{
+    color: #5498ef;
+}
+.member img
+{
+    width: 100%;
+    height: 225px;
+}
+
+.member .name
+{
+    font-size: 28px;
+
+    display: block;
+
+    margin: 10px 0 0 5px;
+
+    color: #666e75;
+}
+.member .description
+{
+    margin: 10px 0 0 5px;
+
+    color: #999;
+}
+.member:hover .overplay
+{
+    opacity: 1;
+    background-image: url(../source/images/icon-light-bulb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overplay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 225px;
+
+    -webkit-transition: opacity .3s;
+            transition: opacity .3s;
+
+    opacity: 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+
+#footer
+{
+    min-width: 1100px;
+    margin: 100px 0 50px 0;
+    padding: 20px;
+
+    text-align: center;
+
+    color: rgb(102,110,117);
+    border-top: 2px solid rgb(244,244,244);
+}
