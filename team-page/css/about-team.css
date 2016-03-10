@@ -1,6 +1,7 @@
 html
 {
-    font-family: Consolas, sans-serif;
+    font-family: "freight-micro-pro-1", "freight-micro-pro-2",Georgia,"times new roman",serif;
+    background-color: rgba(240, 230, 230, 0);
 }
 #header
 {
@@ -129,14 +130,12 @@ html
 }
 .team-name
 {
-    font-family: sans-serif;
     font-size: 39px;
-
     text-align: center;
     text-transform: none;
     text-transform: uppercase;
 
-    color: #5498ef;
+    color: rgb(45, 45, 45);
 }
 
 .wrapper
