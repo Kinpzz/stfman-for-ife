@@ -1,0 +1,61 @@
+body {
+	width: 850px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial;
+}
+
+#side {
+	width: 220px;
+	height: 600px;
+	float: right;
+	background-color: rgb(235, 235, 235);
+}
+
+#detail {
+	width: 612px;
+	float: left;
+	background-color: rgb(235, 235, 235);
+}
+
+#me {
+	width: 120px;
+	height: 120px;
+	border-radius: 200px;
+	
+}
+
+#meme {
+	width: 120px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 34px;
+}
+
+.under {
+	border-bottom: 1px dashed gray;
+}
+
+.ulul {
+	list-style-type: none;
+	line-height: 20px;
+}
+
+ul ul li {
+	line-height: 30px;
+}
+
+h1 {
+	padding-left: 23px;
+}
+
+.sideunder {
+	line-height: 30px;
+	list-style-type: circle;
+}
+
+.ulul a {
+	text-decoration: none;
+}
