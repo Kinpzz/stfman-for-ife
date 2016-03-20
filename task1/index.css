@@ -1,0 +1,543 @@
+#controller {
+	min-width: 1280px;
+	margin: 0px;
+	position: relative;
+}
+html {
+	min-width: 1280px;
+	overflow-x: scroll;
+}
+body {
+	min-width: 1280px;
+	margin: 0px;
+	font-family: Arial;
+}
+#top {
+	position: absolute;
+	top: -60px;
+	width: 100%;
+	height: 60px;
+}
+#top #shu {
+	width: 56px;
+	height: 56px;
+	background-image: url(images/top.png);
+	background-size: cover;
+	margin-left: 6%;
+}
+#top #p1 {
+	position: absolute;
+	top: -16px;
+	font-size: 1.8em;
+	margin-left: 12%;
+}
+#top ul li {
+	height: 36px;
+	display: inline-block;
+	margin-right: 4%;
+	color: rgb(187, 187, 187);
+	font-weight: bold;
+}
+#top ul li:hover {
+    border-bottom: 3px solid rgb(215, 88, 99);
+    cursor: pointer;
+}
+#top ul {
+	width: 38%;
+	position: absolute;
+	top: 5px;
+	left: 58%;
+}
+.denglu {
+	color: rgb(215, 88, 99) !important;
+}
+#time {
+	min-width: 1280px;
+	height: 692px;
+	margin-top: 58px;
+	background-image: url(images/time.jpg);
+	background-size: cover;
+}
+#time h1, #time p, #time h2 {
+	color: white;
+	font-weight: bold;
+}
+#timeh2 {
+	width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+	background-color: rgb(231, 80, 77);
+	position: absolute;
+	top: 54%;
+	left: 11%;
+}
+#timeh2:hover {
+	cursor: pointer;
+}
+#time h1 {
+	position: absolute;
+	top: 26%;
+	left: 11%;
+	font-size: 3em;
+}
+#time #p1 {
+	position: absolute;
+	top: 40%;
+	left: 12%;
+}
+#time #p2 {
+	position: absolute;
+	top: 44%;
+	left: 12%;
+}
+#time1, #time2, #time3, #time4 {
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	background-size: cover;
+}
+#time1 {
+	background-image: url(images/1.png);
+	position: absolute;
+	top: 108%;
+	left: 11%;
+}
+#time2 {
+	background-image: url(images/3.png);
+	position: absolute;
+	top: 108%;
+	left: 36%;
+}
+#time3 {
+	background-image: url(images/2.png);
+	position: absolute;
+	top: 108%;
+	left: 61%;
+}
+#time4 {
+	background-image: url(images/4.png);
+	position: absolute;
+	top: 108%;
+	left: 85%;
+}
+
+#time11, #time12, #time13, #time14 {
+	width: 25%;
+	height: 52px;
+	border-right: 1px solid rgb(134, 134, 134);
+	color: rgb(134, 134, 134);
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+#time14 {
+	border:none;
+}
+#time11 {
+	position: absolute;
+	top: 120%;
+	left: 0%;
+}
+#time12 {
+	position: absolute;
+	top: 120%;
+	left: 25%;
+}
+#time13 {
+	position: absolute;
+	top: 120%;
+	left: 50%;
+}
+#time14 {
+	position: absolute;
+	top: 120%;
+	left: 75%;
+}
+#timetext {
+	position: absolute;
+	top: -16px;
+	left: 68px;
+}
+#timetext1 {
+	position: absolute;
+	top: 3px;
+	left: 112px;
+}
+#world0 {
+	width: 100%;
+	height: 361px;
+	position: absolute;
+	top: 137%;
+	background-color: rgb(237, 237, 237);
+}
+#worlddiv {
+	width: 93px;
+	height: 93px;
+	background-image: url(images/book.png);
+	background-size: cover;
+	position: absolute;
+	top: 90px;
+	left: 594px;
+}
+#world0 p {
+	font-size: 3em;
+	color: rgb(134, 126, 122);
+	text-align: center;
+	font-weight: bold;
+	padding-top: 182px;
+}
+#world {
+	width: 100%;
+	height: 342px;
+	background-image: url(images/world.jpg);
+	background-size: cover;
+	background-position: 0px;
+	position: absolute;
+	top: 189%;
+}
+#world #p1 {
+	text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 15px;
+}
+#world #p2 {
+	text-align: center;
+    color: white;
+    padding-top: 8px;
+}
+select {
+	width: 238px;
+	height: 38px;
+}
+#sel1 {
+	margin-left: 127px;
+	margin-top: 30px;
+}
+#sel2, #sel3, #sel4 {
+	margin-left: 32px;
+	margin-top: 30px;
+}
+#sel4 {
+	width: 238px;
+	height: 29px;
+	text-align: center;
+	color: white;
+	background-color: red;
+	position: absolute;
+	top: 132px;
+	left: 928px;
+	letter-spacing: 10px;
+	font-weight: bold;
+	padding-top: 9px;
+}
+#sel4:hover {
+	cursor: pointer;
+}
+#sel1:hover, #sel2:hover,#sel3:hover {
+	border:1px solid blue;
+}
+#shang {
+	width: 100%;
+	height: 606px;
+	position: absolute;
+	top: 238%;
+	background-color: rgb(247, 247, 247);
+}
+#shang1, #shang2, #shang3, #shang4 {
+	width: 220px;
+	height: 390px;
+	color: rgb(51, 51, 51);
+}
+#shang1 {
+	position: absolute;
+	top: 102px;
+	left: 12%;
+}
+#shang11 {
+	background-image: url(images/xk1.jpg);
+}
+#shang2 {
+	position: absolute;
+	top: 102px;
+	left: 33%;
+}
+#shang22 {
+	background-image: url(images/xk2.jpg);
+	position: absolute;
+	bottom: 0px;
+	border: 1px solid rgb(217, 213, 212);
+}
+#shang3 {
+	position: absolute;
+	top: 102px;
+	left: 53%;
+}
+#shang33 {
+	background-image: url(images/xk3.jpg);
+}
+#shang4 {
+	position: absolute;
+	top: 102px;
+	left: 74%;
+}
+#shang44 {
+	background-image: url(images/xk4.jpg);
+}
+#shang11, #shang22, #shang33, #shang44 {
+	width: 220px;
+	height: 338px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 1px solid rgb(217, 213, 212);
+
+}
+#shang11, #shang33, #shang44 {
+    border-bottom: none;
+}
+#shang p {
+	text-align: center;
+	font-size: 1.3em;
+}
+#shang #p2 {
+	color: rgb(139, 131, 127);
+	font-size: 0.8em;
+}
+#shang2 #p1 {
+	letter-spacing: 24px;
+	position: absolute;
+	top: -34px;
+	left: 32px;
+}
+#xinsd {
+	width: 100%;
+	height: 1087px;
+	position: absolute;
+	top: 325%;
+}
+#xinsd11 {
+	width: 66.7%;
+	height: 567px;
+	background-image: url(images/xinsd.jpg);
+	background-position: -86px;
+}
+#xinsd12 {
+	width: 33.3%;
+	height: 567px;
+	position: absolute;
+	top: 0px;
+	left: 66.7%;
+	background-color: white;
+}
+#xinsd21 {
+	width: 33.3%;
+	height: 520px;
+	position: absolute;
+	top: 567px;
+	background-color: rgb(231, 80, 77);
+}
+#xinsd22 {
+	width: 33.3%;
+	height: 520px;
+	position: absolute;
+	top: 567px;
+	left: 33.3%;
+}
+#xinsd23 {
+	width: 33.4%;
+	height: 520px;
+	position: absolute;
+	left: 66.7%;
+	top: 567px;
+	background-image: url(images/ditie.jpg);
+	background-size: cover;
+}
+#xinsd12 #p11 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#xinsd12 #p12 {
+	color: red;
+}
+#xinsd12 #p1 {
+	text-align: center;
+	letter-spacing: 2px;
+	padding-top: 130px;
+}
+#xinsd12 #p2 {
+	text-align: center;
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 20px;
+	color: rgb(181, 181, 181);
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+#xinsd12 #p3 {
+	border: 1px solid rgb(231, 80, 77);
+	color: rgb(231, 80, 77);
+	padding-top: 13px;
+	padding-left: 26px;
+	letter-spacing: 3px;
+	width: 100px;
+	height: 32px;
+	margin-left: 34%;
+	margin-top: 30px;
+}
+#xinsd21 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 1.5em;
+}
+#xinsd21 #p1, #xinsd22 #p1 {
+	padding-top: 125px;
+}
+#xinsd21 #p2, #xinsd22 #p2 {
+	position: relative;
+	top: -14px;
+}
+#xinsd21 #p3, #xinsd22 #p3 {
+	width: 31px;
+	height: 21px;
+	border-top: 2px solid white;
+	margin-left: 46%;
+}
+#xinsd21 #p4, #xinsd22 #p4 {
+	border: 1px solid white;
+	width: 165px;
+	height: 38px;
+	margin-left: 30%;
+	padding-top: 9px;
+}
+#xinsd22 {
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 1.5em;
+}
+#xinsd22 #p1 {
+	padding-top: 125px;
+	color: black;
+	text-align: 
+}
+#xinsd22 #p4 {
+	color: rgb(231, 80, 77);
+	border: 1px solid rgb(231, 80, 77);
+}
+#xinsd22 #p3 {
+	border-top: 2px solid rgb(170, 170, 170);
+}
+#zyz {
+	height: 287px;
+	width: 100%;
+	position: absolute;
+	top: 482%;
+	text-align: center;
+}
+#zyz #p1{
+    font-size: 1.5em;
+    padding-top: 67px;
+}
+#zyz #p2 {
+	width: 42%;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgb(181, 181, 181);
+	font-size: 0.8em;
+}
+#bottom1 {
+	width: 100%;
+	height: 361px;
+	background-color: rgb(51, 54, 63);
+	position: absolute;
+	top: 523%;
+	text-align: center;
+	color: white;
+}
+#bottom1 #p1 {
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 45px;
+}
+#bottom1 #p2 {
+	width: 43%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.8em;
+	position: relative;
+	top: -20px;
+}
+#bottom1 #text {
+	height: 42px;
+	width: 36%;
+}
+#bottom1 #sb {
+	height: 47px;
+	width: 6.5%;
+	background-color: rgb(105, 98, 102);
+	border: 1px solid rgb(105, 98, 102);
+	position: relative;
+	left: -4px;
+	letter-spacing: 5px;
+	color: white;
+}
+#sb:hover {
+	cursor: pointer;
+}
+#st {
+	width: 24%;
+	height: 43px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+#situ1, #situ2, #situ3, #situ4 {
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+#situ1 {
+	background-image: url(images/qq.png);
+}
+#situ2 {
+	background-image: url(images/wb.png);
+}
+#situ3 {
+	background-image: url(images/fb.png);
+}
+#situ4 {
+	background-image: url(images/wang.png);
+}
+#situ1:hover, #situ2:hover, #situ3:hover, #situ4:hover {
+	cursor: pointer;
+}
+#bottom2 {
+	position: absolute;
+	top: 575%;
+	width: 100%;
+	height: 57px;
+	background-color: rgb(48, 48, 57);
+    color: white;
+    font-size: 0.7em;
+}
+#bottom2 #p1 {
+	width: 80px;
+	padding-top: 15px;
+	padding-left: 11%;
+	
+}
+#bottom2 #p2 {
+	width: 65px;
+	position: absolute;
+	top: 15px;
+	left: 85%;
+}
+#bottom2 a {
+	color: white;
+	text-decoration: none;
+}
