@@ -157,12 +157,12 @@ body {
 #timetext {
 	position: absolute;
 	top: -16px;
-	left: 68px;
+	left: 24%;
 }
 #timetext1 {
 	position: absolute;
 	top: 3px;
-	left: 112px;
+	left: 37%;
 }
 #world0 {
 	width: 100%;
@@ -178,7 +178,7 @@ body {
 	background-size: cover;
 	position: absolute;
 	top: 90px;
-	left: 594px;
+	left: 46%;
 }
 #world0 p {
 	font-size: 3em;
@@ -212,11 +212,11 @@ select {
 	height: 38px;
 }
 #sel1 {
-	margin-left: 127px;
+	margin-left: 10%;
 	margin-top: 30px;
 }
 #sel2, #sel3, #sel4 {
-	margin-left: 32px;
+	margin-left: 2%;
 	margin-top: 30px;
 }
 #sel4 {
@@ -257,6 +257,7 @@ select {
 }
 #shang11 {
 	background-image: url(images/xk1.jpg);
+	background-size: cover;
 }
 #shang2 {
 	position: absolute;
@@ -407,7 +408,7 @@ select {
 }
 #xinsd21 #p4, #xinsd22 #p4 {
 	border: 1px solid white;
-	width: 165px;
+	width: 39%;
 	height: 38px;
 	margin-left: 30%;
 	padding-top: 9px;
