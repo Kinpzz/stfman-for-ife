@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./src/master.css">	
+	<script type="text/javascript" src="./src/queue.js"></script>
+	<title>stf-模拟队列</title>
+</head>
+<body>
+	<div id="container">
+		<div id= "TagsHolder">
+			Tags: <input placeholder="请输入Tag" id="tagKey" autofocus="autofocus" onkeydown="AutoAddTags(event)" onkeyup="ClearTag(event)"></input>
+			<div id="Tags"></div>
+		</div>
+
+		<div id= "InterestsHolder">
+			<textarea id= "interestKey">足球、篮球,LoL;潜水.</textarea>
+			<button id= "confirm">确认兴趣爱好</button>	
+			<div id="Interests"></div>
+		</div>
+	</div>
+</body>
+</html>
