@@ -90,8 +90,6 @@ function CheckData() {
 
 //The way to delete the clicked elements;
 function SelfDelete() {
-	console.log(this.innerText);
-	alert("Delete: " + this.innerText);
 	Global.output.removeChild(this);
 	var that = this;
 	Global.dom.forEach(function(item, index) {
